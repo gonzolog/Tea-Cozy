@@ -1,0 +1,183 @@
+/* Universal Styles */
+
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+        color: seashell;
+    }
+
+    body {
+        background-color: black;
+        max-width: 1200px;
+        margin: 0 auto;
+        zoom: 180%; 
+        opacity: 0.9;
+
+    }
+
+    header {
+        position: fixed;
+        z-index: 2;
+        display: inline-flex;
+        top: 0px;
+        left: 0px;
+        justify-content: space-between;
+        border-bottom: 1px solid seashell; 
+        height: 69px;
+        width: 100%;
+        background-color: black;
+        align-items: center
+    }
+
+    header img {
+        padding-left: 10px;
+        height: 50px;
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top: seashell 1px dotted;
+        margin-top: 25px;
+        width: 100%;
+
+    }
+
+/* Classes */
+
+/* Hero  */
+
+    .hero {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 700px;
+    }
+
+    .hero img {
+        height: 700px;
+        width: 1200px;
+    }
+
+    .navigation li {
+        display: inline;
+        margin-right: 25px;
+    }
+
+    .navigation ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .navigation a {
+        text-decoration: underline;
+        color: white;
+    }
+
+    .mission {
+        width: 100%;
+        background-color: black;
+        text-align: center;
+        position: absolute;
+    }
+
+/* Featured Tea */
+
+    .featured-tea {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .featured-tea .banner {
+        width: 100%
+    }
+
+    .featured-tea .tea-variants img {
+        width: 300px;
+        height: 200px;
+        margin: 0px 20px;
+        border: 1px solid transparent;
+        border-radius: 10px;
+    }
+
+    .featured-tea .tea-variants { 
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+/* Locations */
+
+    .locations {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        margin-top: 50px;
+    }
+
+    .locations img {
+        height: 700px;
+        max-width: 100%;
+        width: 1200px;
+    }
+
+    .locations .location-header {
+        text-align: center;
+        position: absolute;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 0;
+        top: 0;
+    }
+
+    .locations .location-squares {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        opacity: 0.9;
+        top: 100px;
+        height: 150px;
+        max-height: 150px;
+    }
+
+    .locations .location-squares .sqaure{
+        background-color: black;
+        width: 300px;
+        height: 225px;
+        margin: 0px 40px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 0;
+        line-height: 40%;
+        border: 1px transparent solid;
+        border-radius: 10px;
+    }
+
+    .contact {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .copyright {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 10px;
+        overflow: hidden;
+    }
+
+/* IDs */
+
+
+
